@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: 'Raleway-semibold';
+    font-family: 'Raleway-bold';
     src: url("../fonts/Raleway-SemiBold.ttf");
 }
 
 @font-face {
-    font-family: 'Raleway-bold';
+    font-family: 'Raleway-semibold';
     src: url("../fonts/Raleway-Bold.ttf");
 }
 
@@ -137,7 +137,7 @@ body {
     font-family: 'Raleway';
     text-align: center;
     margin: 0px;
-    font-size: 8pt;
+    font-size: 9pt;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -169,13 +169,13 @@ body {
     border: 2px solid #fff;
     box-sizing: inherit;
     display: inline-block;
-    font-size: 13pt;
+    font-size: 12pt;
     transition: all .5s;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #80B2F2;
+    background-color: #80B2F1;
     border-color: #80B2F2;
 }
 
